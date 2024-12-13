@@ -4,7 +4,6 @@ Simple Python script to run whisper transcription on audio or video files.
 ## Requirements
 - Python3
 - openai-whisper
-- os
 
 ## Installation
 Install whisper:
