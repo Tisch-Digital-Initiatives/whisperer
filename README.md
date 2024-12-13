@@ -8,9 +8,9 @@ Simple Python script to run whisper transcription on audio or video files.
 
 ## Installation
 Install whisper:
-'''
+```
 pip install -U openai-whisper
-'''
+```
 
 ## Usage
 - Choose and input a whisper model.
