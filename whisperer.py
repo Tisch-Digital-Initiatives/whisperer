@@ -1,14 +1,13 @@
+from pathlib import Path
 import os
 import whisper
 from whisper.utils import get_writer
 
 whisper_model = input("\nWChoose your model:\ntiny\nbase\nsmall\nmedium\nlarge\nturbo\n")
 model = whisper.load_model(whisper_model)
-
-file = input("\nEnter path to file:")
-
+file = str(Path(input("\nEnter path to file:")))
 file_name = os.path.basename(file)
-
+print(file)
 
 def get_transcribe(audio: str, language: str = 'en'):
     return model.transcribe(audio=audio, language=language, verbose=True)
