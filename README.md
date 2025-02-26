@@ -5,14 +5,18 @@ Simple Python script to run whisper transcription on audio or video files.
 - Python3
 - openai-whisper
 - pathlib
+- ffmpeg
 
 ## Installation
-Install whisper and pathlib:
+Install whisper, pathlib, and ffmpeg:
 ```
 pip install -U openai-whisper
 ```
 ```
 pip install -U pathlib
+```
+```
+pip install -U ffmpeg
 ```
 
 ## Usage
